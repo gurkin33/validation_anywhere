@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "cc1787c2-b628-4d05-8709-7753a092f734",
+		"name": "respect_validation",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Alexey\",\n    \"first_name\": \"A\",\n    \"second_name\": \"Mochalin\",\n    \"email\": \"Mochalin\",\n    \"password\": \"aaaaaaaa\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://validation.pythonanywhere.com/",
+					"protocol": "https",
+					"host": [
+						"validation",
+						"pythonanywhere",
+						"com"
+					],
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
